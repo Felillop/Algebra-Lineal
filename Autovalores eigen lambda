@@ -1,2 +1,18 @@
+## Autovalores
+
 lambda <-eigen(L,only.values=TRUE)
 print(lambda)
+
+## Autovalores y autovectores
+
+La función eigen() calcula los autovalores y autovectores de una matriz:
+
+eigen()
+## eigen() decomposition
+## $values
+## [1]  8.358899 -0.358899
+## 
+## $vectors
+##           [,1]      [,2]
+## [1,] -0.561999 -0.964996
+## [2,] -0.827138  0.262266
