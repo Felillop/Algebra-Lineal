@@ -1,0 +1,2 @@
+lambda <-eigen(L,only.values=TRUE)
+print(lambda)
